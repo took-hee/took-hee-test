@@ -90,6 +90,11 @@ p {
   line-height: var(--line-height-relaxed);
 }
 
+p, li {
+  font-weight: 500;
+  line-height: 1.6;
+}
+
 a {
   color: var(--color-primary);
   text-decoration: none;
