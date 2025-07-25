@@ -1,5 +1,11 @@
 /* 마음의 정원 - 메인 스타일시트 */
 
+/* 폰트 설정 */
+body {
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+
 /* CSS Variables (색상 및 간격 시스템) */
 :root {
   /* 색상 팔레트 */
