@@ -325,9 +325,3 @@ a:hover {
     padding: var(--spacing-2xl) 0;
   }
 }
-
-/* 줄바꿈 문자를 인식 */
-.hero-description {
-  line-height: 1.8;
-  white-space: pre-line;
-}
