@@ -326,3 +326,8 @@ a:hover {
   }
 }
 
+/* 줄바꿈 문자를 인식 */
+.hero-description {
+  line-height: 1.8;
+  white-space: pre-line; 
+}
