@@ -103,7 +103,7 @@ a {
 
 a:hover {
   color: var(--color-accent-orange);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* 컨테이너 */
@@ -325,3 +325,4 @@ a:hover {
     padding: var(--spacing-2xl) 0;
   }
 }
+
