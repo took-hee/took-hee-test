@@ -1,11 +1,5 @@
 /* 마음의 정원 - 메인 스타일시트 */
 
-/* 폰트 설정 */
-body {
-  font-family: 'Gowun Dodum', sans-serif;
-}
-
-
 /* CSS Variables (색상 및 간격 시스템) */
 :root {
   /* 색상 팔레트 */
@@ -71,7 +65,7 @@ html {
 }
 
 body {
-  font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-family: 'Gowun Dodum', sans-serif, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   background-color: var(--color-background);
   color: var(--color-text-primary);
   line-height: var(--line-height-normal);
