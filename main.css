@@ -326,8 +326,31 @@ a:hover {
   }
 }
 
+/* 뷰포트 높이 기반 섹션 */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-2xl) 0;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-2xl) 0;
+}
+
+/* 모바일에서는 조금 줄이기 */
+@media (max-width: 768px) {
+    .hero, .section {
+        min-height: 80vh;
+    }
+}
+
 /* 줄바꿈 문자를 인식 */
 .hero-description {
   line-height: 1.8;
   white-space: pre-line; 
 }
+
