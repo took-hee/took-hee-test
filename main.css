@@ -331,11 +331,8 @@ a:hover {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     background: linear-gradient(135deg, var(--color-background) 0%, var(--color-secondary-bg) 100%);
-    padding: 0;
-    padding-top: 10vh; /* 위로 10% 올리기 */
-    padding-bottom: 15vh; /* 아래 여백 더 크게 */
+    padding: 0; /* 기존 padding 제거 */
 }
 
 /* 최신 글 섹션 - 전체 화면 높이 */
@@ -343,10 +340,12 @@ a:hover {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0;
-    padding-top: 10vh;
-    padding-bottom: 15vh;
+    padding: 0; /* 기존 padding 제거 */
+}
+
+.hero, .section {
+    align-items: flex-start; /* 중앙 대신 상단 기준 */
+    padding-top: 20vh; /* 위에서 20% 지점에 배치 */
 }
 
 /* 모바일 대응 */
