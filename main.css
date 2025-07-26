@@ -191,7 +191,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
   padding-top: 15vh;
-  padding-bottom: 3vh;
+  padding-bottom: 0vh;
 }
 
 .hero-title {
