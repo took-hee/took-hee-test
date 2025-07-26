@@ -19,6 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 툴팁
     initTooltips();
+
+    // 스크롤 인디케이터 (새로 추가)
+    initScrollIndicator();
 });
 
 // 모바일 네비게이션 토글
@@ -343,3 +346,22 @@ window.MindGarden = {
     utils
 };
 
+// 스크롤 인디케이터 초기화
+function initScrollIndicator() {
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+    
+    if (scrollIndicator) {
+        scrollIndicator.addEventListener('click', function() {
+            const nextSection = document.querySelector('.section');
+            if (nextSection) {
+                const headerHeight = document.querySelector('.header').offsetHeight;
+                const targetPosition = nextSection.offsetTop - headerHeight - 20;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    }
+}
