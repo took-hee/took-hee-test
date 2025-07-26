@@ -326,22 +326,24 @@ a:hover {
   }
 }
 
-/* 뷰포트 높이 기반 섹션 */
+/* 히어로 섹션 - 전체 화면 높이 */
 .hero {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: var(--spacing-2xl) 0;
+    background: linear-gradient(135deg, var(--color-background) 0%, var(--color-secondary-bg) 100%);
+    padding: 0; /* 기존 padding 제거 */
 }
 
+/* 최신 글 섹션 - 전체 화면 높이 */
 .section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: var(--spacing-2xl) 0;
+    padding: 0; /* 기존 padding 제거 */
 }
 
-/* 모바일에서는 조금 줄이기 */
+/* 모바일 대응 */
 @media (max-width: 768px) {
     .hero, .section {
         min-height: 80vh;
