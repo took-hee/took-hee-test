@@ -225,6 +225,11 @@ a:hover {
   margin: 0 auto;
 }
 
+/* 히어로 버튼 컨테이너 */
+.hero-buttons {
+  margin-top: var(--spacing-3xl);
+}
+
 /* 버튼 */
 .btn {
   display: inline-block;
