@@ -230,32 +230,18 @@ a:hover {
   margin-top: var(--spacing-3xl);
 }
 
-/* 스크롤 인디케이터 */
 .scroll-indicator {
   margin-top: var(--spacing-2xl);
   color: var(--color-text-secondary);
   font-size: 1.5rem;
   opacity: 0.6;
   animation: bounce 2s infinite;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.scroll-indicator:hover {
-  opacity: 0.8;
-  color: var(--color-primary);
 }
 
 @keyframes bounce {
-  0%, 50%, 100% { 
-    transform: translateY(0); 
-  }
-  25% { 
-    transform: translateY(-5px); 
-  }
-  75% { 
-    transform: translateY(5px); 
-  }
+  0%, 50%, 100% { transform: translateY(0); }
+  25% { transform: translateY(-5px); }
+  75% { transform: translateY(5px); }
 }
 
 /* 버튼 */
