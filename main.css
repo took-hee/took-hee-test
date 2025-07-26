@@ -213,7 +213,7 @@ a:hover {
   font-size: var(--font-size-body);
   color: var(--color-text-primary);
   max-width: 600px;
-  margin: 0 auto var(--spacing-xl);
+  margin: var(--spacing-2xl) auto var(--spacing-2xl);
   line-height: 1.8;
   white-space: pre-line;
 }
